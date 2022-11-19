@@ -1,0 +1,248 @@
+@media(max-width:992px) {
+    .promo {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .benefits {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .benefits__item {
+        max-width: 220px;
+    }
+
+    .consultation {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .carousel {
+        .slick-dots {
+            text-align: center;
+            padding: 0;
+            margin: 0 auto;
+            margin-top: 30px;
+            list-style-type: none;
+            height: 50px;
+            li {
+                display: inline;
+                button {
+                    margin: 0 10px;
+                    border: none;
+                    border-radius: 100%;
+                    background-color: #c70101;
+                    text-indent: -9999px;
+                    overflow: hidden;
+                    width: 30px;
+                    height: 30px;
+                    transition: 0.5s all;
+                    &:hover {
+                        box-shadow: 3px 3px 20px #c70101;
+                    }
+                }
+            }
+        }
+    }
+
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
+
+    .feedback {
+        &__items {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        &__img {
+            margin-right: 40px;
+        }
+    }
+
+    .footer {
+        &__info {
+            width: 100vw;
+            left: 0;
+            transform: translateX(0);
+            height: 185px;
+            padding: 35px 40px 15px 40px;
+        }
+        &__addr {
+            font-size: 18px;
+        }
+        &__phone {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        &__social {
+            margin-top: 10px;
+        }
+    }
+}
+
+@media(max-width:767px) {
+    .header {
+        &__official {
+            &_hidden {
+                display: none;
+            }
+        }
+    }
+
+    .benefits {
+        &__wrapper {
+            display: block;
+        }
+        &__item {
+            display: block;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        &__subheader {
+            text-align: center;
+            margin-top: 15px;
+        }
+    }
+
+    .feedback {
+        &__img {
+            margin-right: 25px;
+        }
+    }
+
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        &__tab {
+            margin: 5px 0;
+        }
+        &__content {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media(max-width:575px) {
+    .header {
+        &__logo {
+            width: 130px;
+        }
+        &__phone {
+            font-size: 13px;
+        }
+    }
+
+    .button {
+        width: 120px;
+        font-size: 10px;
+        &_main {
+            width: 200px;
+            font-size: 13px;
+        }
+        &_submit {
+            width: 100%;
+            font-size: 14px;
+        }
+    }
+
+    .promo {
+        padding-right: 10px;
+        padding-left: 10px;
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            text-align: center;
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 13px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        &__icons {
+            width: 300px;
+        }
+        &__icon {
+            font-size: 10px;
+        }
+        &__link {
+            font-size: 15px;
+        }
+    }
+
+    .consultation {
+        &__descr {
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+
+    .title {
+        &_left {
+            text-align: center;
+            font-size: 21px;
+        }
+    }
+
+    .feed-form {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 250px;
+        input {
+            width: 100%;
+        }
+        &_mt25 {
+            width: 240px;
+        }
+    }
+
+    .feedback {
+        &__items {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        &__item {
+            flex-direction: column;
+            margin: 20px 0 20px 0;
+            &:nth-child(1) {
+                margin-top: 30px;
+            }
+        }
+        &__img {
+            margin-right: 0;
+            margin: 0 auto;
+        }
+        &__content {
+            margin-top: 30px;
+        }
+        &__name {
+            text-align: center;
+        }
+        &__marafon {
+            text-align: center;
+        }
+    }
+
+    .modal {
+        width: 280px;
+        padding: 38px 20px 40px 20px;
+        &__close {
+            right: -37px;
+        }
+    }
+}
